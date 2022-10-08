@@ -1,0 +1,88 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/*Defaults*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    padding: 0 7%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/GT.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo  {
+    width: 300px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{ /* makes the li space out */
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8f5f2;
+}
+
+nav .btn{
+    color: #f8f5f2;
+    text-decoration: none;
+    margin-right: 7%;
+    padding: 10px 30px;
+    border: 1px solid #f8f5f2;
+    border-radius: 30px;
+}
+
+.info{
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    bottom: 50px;
+    position: fixed; /* makes the info go from top to bottom */
+    left: 0; /* pussh info left*/
+    color: #f8f5f2;
+}
+
+.info div{
+    margin: 0 20px;
+}
+
+.info .line{
+    flex: 1;
+    height: 5px;
+    background: #f8f5f2;
+}
+
+.info div h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
